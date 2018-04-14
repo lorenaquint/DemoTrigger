@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DemoTrigger"
+             x:Class="DemoTrigger.MainPage">
+
+    <StackLayout Margin=" 30"
+                 VerticalOptions="CenterAndExpand"
+                 >
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Título"
+                   VerticalTextAlignment="Center"></Label>
+            <Entry Placeholder="Ingresar Título"
+                   x:Name="entTitulo"
+                   ></Entry>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Autor"
+                   VerticalTextAlignment="Center"></Label>
+            <Entry Placeholder="Ingresar Autor"
+                   x:Name="entAutor"
+                   Text=""
+                   ></Entry>
+                   
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Area"
+                   VerticalTextAlignment="Center"></Label>
+            <Entry x:Name="entry" 
+                Placeholder="Ingresar Area"
+                   ></Entry>
+        </StackLayout>
+        <StackLayout>
+            <Button 
+                    Text="Enviar">
+                
+            </Button>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
